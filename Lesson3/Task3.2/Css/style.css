@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(../images/headerback.jpg);
+    background-repeat: no-repeat;
+    background-position: 80%;
+    background-color: rgba(247, 247, 247, 0.932);
+    font-family: Tahoma;
+    padding: 30px;
+}
+
+.container{
+    max-width: 1200;
+    margin: auto;
+}
+
+.logo{
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+}
+
+.separator{
+    display: inline-block;
+    width: 2px;
+    height: 50px;
+    background-image: linear-gradient(to top rgba(247, 247, 247, 0.932), rgba(107, 107, 107, 0.932), rgba(231, 229, 229, 0.932));
+    margin-right: 30px;
+    vertical-align: middle;
+}
+
+.header-text{
+    display: inline-block;
+    width:50%;
+    vertical-align: middle;
+}
+ 
+.selected-text{
+color: rgb(96, 186, 216);
+}
